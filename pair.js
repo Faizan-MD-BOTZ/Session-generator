@@ -52,34 +52,34 @@ router.get('/', async (req, res) => {
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                     await delay(800);
                     let b64data = Buffer.from(data).toString('base64');
-                    let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: 'FAIZAN-AI~' + b64data });
+                    let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: 'ADEEL-MD~' + b64data });
 
                     let Mbuvi_MD_TEXT = `
         
 ╔════════════════════◇
 ║『 SESSION CONNECTED』
-║ ✨ FAIZAN-AI 🔷
-║ ✨ FAIZAN-AI OFFICIAL🔷
+║ ✨ ADEEL-MD🔷
+║ ✨ ADEEL-MD OFFICIAL🔷
 ╚════════════════════╝
 
 
 ---
 
 ╔════════════════════◇
-║『 YOU'VE CHOSEN FAIZAN-AI 』
+║『 YOU'VE CHOSEN ADEEL-MD 』
 ║ -Set the session ID in Heroku:
 ║ - SESSION_ID: 
 ╚════════════════════╝
 ╔════════════════════◇
 ║ 『••• _V𝗶𝘀𝗶𝘁 𝗙𝗼𝗿_H𝗲𝗹𝗽 •••』
-║❍ 𝐎𝐰𝐧𝐞𝐫: 923266105873
+║❍ 𝐎𝐰𝐧𝐞𝐫: +92 334 8585489
 ║❍ 𝐑𝐞𝐩𝐨: https://github.com/Faizan-MD-BOTZ/Faizan-Ai
 ║❍ 𝐖𝐚𝐆𝗿𝐨𝐮𝐩: https://whatsapp.com/channel/0029VbBdQyRBPzjUMvx8Fb2g
 ║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VbBdQyRBPzjUMvx8Fb2g
 ║
 ║ ☬ ☬ ☬ ☬
 ╚═════════════════════╝
-𒂀 Enjoy FAIZAN-AI
+𒂀 Enjoy ADEEL-MD
 
 
 ---
